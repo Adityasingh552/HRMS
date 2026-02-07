@@ -85,6 +85,24 @@ cd frontend
 ##Open index.html in a browser
 or use VS Code Live Server extension.
 ```
+## ⚠️ Assumptions & Limitations
+
+### Assumptions
+- The application is intended for **internal admin use only**.
+- All employee data is managed by a single admin user.
+- Attendance is marked **manually** by the admin.
+- A stable internet connection is available for accessing the deployed application.
+- MongoDB Atlas is used as the cloud database, so no local database setup is required.
+
+### Limitations
+- No authentication or role-based access control is implemented.
+- No employee self-service features are available.
+- Employee records can be added and deleted, but **update/edit functionality is not implemented**.
+- The system does not generate reports or analytics.
+- The user interface is minimal and focuses on functionality rather than advanced design or responsiveness.
+
+
+
 
 ## 🌐 Live Application URLs:
 ```
